@@ -1390,5 +1390,3 @@ The CSS variables have been updated to replace the previous purple/pink palette 
     </script>
 </body>
 </html>
-
-```
