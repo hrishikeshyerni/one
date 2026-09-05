@@ -14,20 +14,20 @@
     <style>
         /* ========== ROOT VARIABLES ========== */
         :root {
-            --bg: #061510;
-            --bg-card: rgba(13, 35, 27, 0.7);
-            --bg-card-hover: rgba(18, 48, 37, 0.85);
+            --bg: #0b1312;
+            --bg-card: rgba(18, 36, 33, 0.7);
+            --bg-card-hover: rgba(24, 48, 44, 0.85);
             --surface: rgba(255, 255, 255, 0.05);
-            --surface-border: rgba(255, 255, 255, 0.08);
+            --surface-border: rgba(20, 184, 166, 0.15);
             
             --primary: #ffffff;
             --muted: #94a3b8;
             --muted-light: #64748b;
             
-            --accent: #10b981;
-            --accent-gradient: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
-            --accent-glow: rgba(16, 185, 129, 0.35);
-            --accent-light: rgba(16, 185, 129, 0.15);
+            --accent: #0d9488;
+            --accent-gradient: linear-gradient(135deg, #0d9488 0%, #10b981 50%, #06b6d4 100%);
+            --accent-glow: rgba(13, 148, 136, 0.35);
+            --accent-light: rgba(13, 148, 136, 0.15);
             
             --success: #10b981;
             --warning: #f59e0b;
@@ -35,7 +35,7 @@
             --radius: 20px;
             --radius-sm: 12px;
             --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
-            --shadow-hover: 0 20px 40px -15px rgba(16, 185, 129, 0.3);
+            --shadow-hover: 0 20px 40px -15px rgba(13, 148, 136, 0.3);
             --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
             --container: 1280px;
         }
@@ -57,8 +57,8 @@
             -webkit-font-smoothing: antialiased;
             overflow-x: hidden;
             background-image: 
-                radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.12) 0%, transparent 45%),
-                radial-gradient(circle at 85% 65%, rgba(52, 211, 153, 0.08) 0%, transparent 45%);
+                radial-gradient(circle at 15% 15%, rgba(13, 148, 136, 0.15) 0%, transparent 45%),
+                radial-gradient(circle at 85% 65%, rgba(16, 185, 129, 0.1) 0%, transparent 45%);
             background-attachment: fixed;
         }
         a {
@@ -129,7 +129,7 @@
             position: sticky;
             top: 0;
             z-index: 100;
-            background: rgba(6, 21, 16, 0.75);
+            background: rgba(11, 19, 18, 0.75);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--surface-border);
@@ -312,8 +312,8 @@
             border-radius: 32px;
             overflow: hidden;
             margin: 24px 24px 0;
-            background: radial-gradient(circle at top right, rgba(16, 185, 129, 0.15), transparent 60%),
-                        linear-gradient(180deg, rgba(13, 35, 27, 0.8) 0%, rgba(6, 21, 16, 0.9) 100%);
+            background: radial-gradient(circle at top right, rgba(16, 185, 129, 0.18), transparent 60%),
+                        linear-gradient(180deg, rgba(18, 36, 33, 0.8) 0%, rgba(11, 19, 18, 0.9) 100%);
             border: 1px solid var(--surface-border);
             box-shadow: var(--shadow);
         }
@@ -326,8 +326,8 @@
             align-items: center;
             gap: 8px;
             background: var(--accent-light);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-            color: #6ee7b7;
+            border: 1px solid rgba(13, 148, 136, 0.3);
+            color: #5eead4;
             padding: 6px 18px;
             border-radius: 999px;
             font-weight: 600;
@@ -378,7 +378,7 @@
         }
         .section-header .view-all {
             font-weight: 600;
-            color: #6ee7b7;
+            color: #5eead4;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -409,7 +409,7 @@
         .cat-card:hover {
             transform: translateY(-8px);
             background: var(--bg-card-hover);
-            border-color: rgba(16, 185, 129, 0.4);
+            border-color: rgba(13, 148, 136, 0.4);
             box-shadow: var(--shadow-hover);
         }
         .cat-card .icon-wrap {
@@ -422,7 +422,7 @@
             place-items: center;
             margin: 0 auto 16px;
             font-size: 22px;
-            color: #6ee7b7;
+            color: #5eead4;
             transition: var(--transition);
         }
         .cat-card:hover .icon-wrap {
@@ -458,7 +458,7 @@
         }
         .product-card:hover {
             transform: translateY(-8px);
-            border-color: rgba(16, 185, 129, 0.4);
+            border-color: rgba(13, 148, 136, 0.4);
             box-shadow: var(--shadow-hover);
         }
         .product-card .img-wrap {
@@ -499,7 +499,7 @@
             width: 38px;
             height: 38px;
             border-radius: 50%;
-            background: rgba(6, 21, 16, 0.6);
+            background: rgba(11, 19, 18, 0.6);
             border: 1px solid var(--surface-border);
             display: grid;
             place-items: center;
@@ -522,7 +522,7 @@
         }
         .product-card .body .category-tag {
             font-size: 11px;
-            color: var(--accent);
+            color: #2dd4bf;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: 700;
@@ -789,7 +789,7 @@
             margin-top: 40px;
             padding: 60px 0 32px;
             border-top: 1px solid var(--surface-border);
-            background: rgba(6, 21, 16, 0.5);
+            background: rgba(11, 19, 18, 0.5);
         }
         .footer-grid {
             display: grid;
