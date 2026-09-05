@@ -1,3 +1,8 @@
+Here is the updated code with a **emerald green design system**.
+
+The CSS variables have been updated to replace the previous purple/pink palette with emerald gradients (`#10b981` to `#059669`), glowing accents, and neon green highlights while maintaining the dark glassmorphism aesthetic.
+
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -1385,3 +1390,5 @@
     </script>
 </body>
 </html>
+
+```
