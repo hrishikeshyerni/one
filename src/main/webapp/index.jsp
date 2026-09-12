@@ -1385,4 +1385,4 @@
         updateCartCount();
     </script>
 </body>
-</hhtml>
+</html>
