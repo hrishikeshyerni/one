@@ -895,10 +895,10 @@
         <div class="container header-inner">
             <div style="display:flex;align-items:center;gap:12px;">
                 <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
-                    <i class="fas fa-bars"></i>
+                    <em class="fas fa-bars"></em>
                 </button>
                 <a class="brand" href="#">
-                    <div class="brand-icon"><i class="fas fa-cube"></i></div>
+                    <div class="brand-icon"><em class="fas fa-cube"></em></div>
                     <span>Nexus<span class="accent">Shop</span></span>
                 </a>
             </div>
@@ -924,7 +924,7 @@
                     <button class="icon-btn" title="Wishlist" aria-label="Wishlist"><i class="far fa-heart"></i></button>
                     <div class="cart-wrap" style="position:relative;">
                         <button class="icon-btn" id="cartBtn" title="Cart" aria-label="Cart">
-                            <i class="fas fa-shopping-bag"></i>
+                            <em class="fas fa-shopping-bag"></em>
                         </button>
                         <span class="cart-count" id="cartCount">0</span>
                     </div>
